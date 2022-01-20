@@ -48,7 +48,7 @@ The content cost function is computed using one hidden layer's activations.
 The style cost function for one layer is computed using the Gram matrix of that layer's activations. The overall style cost function is obtained using several hidden layers.
 Optimizing the total cost function results in synthesizing new images.
 
-**WE can also tune your hyperparameters:**
+**WE can also tune hyperparameters:**
 
 Which layers are responsible for representing the style? STYLE_LAYERS
 How many iterations do you want to run the algorithm? num_iterations
